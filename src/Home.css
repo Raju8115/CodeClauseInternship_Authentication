@@ -1,0 +1,9 @@
+.main-container{
+    position: relative;
+}
+.container-home{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: 210px;
+}

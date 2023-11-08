@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 120vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: -90;
+    padding: 0px 20px;
+}
+.header-text{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.li{
+    text-decoration: none;
+    color: white;
+}
+.lists-container{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background: #ee9090;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
